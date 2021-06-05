@@ -1,5 +1,5 @@
 function computerPlay () {
-  let computerSelection= Math.floor(Math.random()*1);
+  let computerSelection= Math.floor(Math.random()*3);
   if (computerSelection===0) {
        computerSelection='paper';
        return computerSelection;
